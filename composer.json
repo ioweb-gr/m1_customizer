@@ -13,5 +13,14 @@
       "name":"IOWEB TECHNOLOGIES",
       "email":"info@ioweb.gr"
     }
-  ]
+  ],
+  "extra": {
+    "map": [
+      ["app/code/local/Ioweb/Customizer", "app/code/local/Ioweb/Customizer"],
+      ["app/design/frontend/base/default/layout/ioweb_customizer.xml", "app/design/frontend/base/default/layout/ioweb_customizer.xml"],
+      ["app/etc/modules/Ioweb_Customizer.xml", "app/etc/modules/Ioweb_Customizer.xml"],
+      ["assets", "assets"],
+      ["webpack.config.js", "webpack.config.js"]
+    ]
+  }
 }

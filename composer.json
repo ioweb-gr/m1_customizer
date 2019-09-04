@@ -4,6 +4,7 @@
   "type": "magento-module",
   "description": "customizer",
   "homepage": "https://www.ioweb.gr",
+  "version": "1.0.0",
   "require": {
     "magento-hackathon/magento-composer-installer": "*"
   },

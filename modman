@@ -1,5 +1,0 @@
-app/code/local/Ioweb/Customizer/                                app/code/local/Ioweb/Customizer/
-app/design/frontend/base/default/layout/ioweb_customizer.xml     app/design/frontend/base/default/layout/ioweb_customizer.xml
-app/etc/modules/Ioweb_Customizer.xml                             app/etc/modules/Ioweb_Customizer.xml
-js/io-touchfix.js/                                              js/io-touchfix.js/
-js/ioweb-custom.js/                                             js/ioweb-custom.js/

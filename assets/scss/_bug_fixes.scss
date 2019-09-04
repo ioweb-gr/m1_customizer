@@ -1,0 +1,52 @@
+/*!
+ * Copyright (c) 2018. IOWEB TECHNOLOGIES
+ */
+
+.io {
+  .image-box .product-image > img {
+    margin-bottom: 0 !important;
+  }
+  .image-box:hover .product-image > img {
+    top: 0;
+  }
+  .image-box:hover .hover-image {
+    top: 0;
+  }
+  .product-view .product-img-box .more-views li a img {
+    margin-bottom: 0 !important;
+  }
+  .product-view .product-img-box .more-views li a:hover img {
+    top: 0;
+  }
+
+  .product-view .product-img-box .product-image-zoom img#image:not(.visible) {
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .product-view .product-img-box .zoomContainer {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+  }
+  .product-view .product-img-box .zoomWindow {
+    margin: 0 auto !important;
+    right: 0;
+  }
+
+  #select_label_color, #select_label_size {
+    color: $color-dark;
+  }
+
+  dt.swatch-attr {
+    margin-top: 3px;
+  }
+
+  .short-description p + br {
+    display: none;
+  }
+}
+

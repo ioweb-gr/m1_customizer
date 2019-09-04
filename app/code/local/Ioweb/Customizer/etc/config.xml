@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2018. IOWEB TECHNOLOGIES
+  -->
+
+<config>
+    <modules>
+        <Ioweb_Customizer>
+            <version>0.1.0</version>
+        </Ioweb_Customizer>
+    </modules>
+    <global>
+        <models>
+            <ioweb_customizer>
+                <class>Ioweb_Customizer_Model</class>
+                <resourceModel>ioweb_customizer_resource</resourceModel>
+            </ioweb_customizer>
+            <ioweb_customizer_resource>
+                <class>Ioweb_Customizer_Model_Resource</class>
+            </ioweb_customizer_resource>
+        </models>
+        <blocks>
+            <ioweb_customizer>
+                <class>Ioweb_Customizer_Block</class>
+            </ioweb_customizer>
+        </blocks>
+        <helpers>
+            <ioweb_customizer>
+                <class>Ioweb_Customizer_Helper</class>
+            </ioweb_customizer>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ioweb_massproductimageupdater>
+                    <file>ioweb_customizer.xml</file>
+                </ioweb_massproductimageupdater>
+            </updates>
+        </layout>
+    </frontend>
+</config>

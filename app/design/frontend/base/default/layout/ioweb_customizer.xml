@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2017. IOWEB TECHNOLOGIES
+  -->
+
+<layout>
+    <default>
+        <reference name="root">
+            <action method="addBodyClass">
+                <className>io</className>
+            </action>
+        </reference>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>ioweb/customizer/build/ioweb-custom.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>ioweb/customizer/build/ioweb-custom.css</name>
+            </action>
+        </reference>
+    </default>
+</layout>

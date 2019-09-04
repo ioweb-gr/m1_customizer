@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2018. IOWEB TECHNOLOGIES
+  -->
+
+<config>
+    <modules>
+        <Ioweb_Customizer>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ioweb_Customizer>
+    </modules>
+</config>

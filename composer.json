@@ -1,0 +1,16 @@
+{
+  "name": "ioweb/m1_customizer",
+  "license": "",
+  "type": "magento-module",
+  "description": "customizer",
+  "homepage": "https://www.ioweb.gr",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"IOWEB TECHNOLOGIES",
+      "email":"info@ioweb.gr"
+    }
+  ]
+}

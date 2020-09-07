@@ -6,7 +6,7 @@
 <config>
     <modules>
         <Ioweb_Customizer>
-            <version>0.1.1</version>
+            <version>1.0.1</version>
         </Ioweb_Customizer>
     </modules>
     <global>

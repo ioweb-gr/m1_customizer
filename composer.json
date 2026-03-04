@@ -4,13 +4,14 @@
   "type": "magento-module",
   "description": "customizer",
   "homepage": "https://www.ioweb.gr",
+  "version": "1.0.2",
   "require": {
     "magento-hackathon/magento-composer-installer": "*"
   },
-  "authors":[
+  "authors": [
     {
-      "name":"IOWEB TECHNOLOGIES",
-      "email":"info@ioweb.gr"
+      "name": "IOWEB TECHNOLOGIES",
+      "email": "info@ioweb.gr"
     }
   ],
   "extra": {

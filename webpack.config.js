@@ -44,6 +44,8 @@ Encore
 
     // allow sass/scss files to be processed
     .enableSassLoader()
+
+    .disableSingleRuntimeChunk()
 ;
 
 // export the final configuration
